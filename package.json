@@ -13,10 +13,12 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "api": "json-server --watch ./public/data/db.json --port 3500",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:3500",
   "eslintConfig": {
     "extends": [
       "react-app",
