@@ -13,9 +13,11 @@
   }
 }
 
-.App-header {
+.App-body { padding: 5vh; }
+
+.App-header, .App-footer {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,9 +26,34 @@
   color: white;
 }
 
+section.userContactInformation { display: flex; justify-content: center; }
+
+form.addForm { width: 25%; display: flex; flex-direction: column; }
+form.addForm input { padding: 10px 7px; margin: 5px 0; }
+form.addForm label { font-size: 24px; font-weight: bold; line-height: 46px; }
+
+form.addForm input[type="submit"],
+div.userList ul li.user input[type="checkbox"],
+div.userList ul li.user button { cursor: pointer; }
+
+div.userList { width: 75%; }
+
+.App-footer { min-height: 5vh; font-size: 12px; }
+
 .App-link {
   color: #61dafb;
 }
+
+ul { list-style: none; padding: 0 25px; margin: 50px 0; }
+ul li.tblHead,
+ul li.user { display: grid; grid-auto-rows: auto; grid-template-columns: 4% 13% 12% 8% 6% 15% 15% 12% 10% 5%; justify-items: center; align-items: center; }
+ul li.user { padding: 3px 10px; border: 1px solid #000000; border-bottom: 0.5px; }
+ul li.user:last-child { border-bottom: 1px solid !important; }
+ul li.user label,
+ul li.user button { padding: 5px 10px; }
+ul li.tblHead label,
+ul li.tblHead label { font-weight: bold; }
+ul li.user label { width: 100%; font-size: 13px; }
 
 @keyframes App-logo-spin {
   from {
