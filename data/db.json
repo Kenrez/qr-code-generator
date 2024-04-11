@@ -2,42 +2,6 @@
   "users": [
     {
       "id": "1",
-      "checked": true,
-      "firstName": "Kenrez",
-      "lastName": "Naallatan",
-      "birthdate": "04241986",
-      "gender": "Male",
-      "address": "Lumbia, CDO City",
-      "email": "ken042486@gmail.com",
-      "contactNumber": "09876543210",
-      "password": "kenrez1234!"
-    },
-    {
-      "id": "2",
-      "checked": false,
-      "firstName": "Kendrick",
-      "lastName": "Naallatan",
-      "birthdate": "07272019",
-      "gender": "Male",
-      "address": "Iponan, CDO",
-      "email": "kendrick@gmail.com",
-      "contactNumber": "09876543211",
-      "password": "kendrick123!"
-    },
-    {
-      "id": "3",
-      "checked": true,
-      "firstName": "Lady",
-      "lastName": "Naallatan",
-      "birthdate": "05251986",
-      "gender": "Female",
-      "address": "Balulang, CDO",
-      "email": "lady@gmail.com",
-      "contactNumber": "09876543212",
-      "password": "lady123!!"
-    },
-    {
-      "id": "4",
       "checked": false,
       "firstName": "User",
       "lastName": "Naallatan",
@@ -49,7 +13,7 @@
       "password": "pass123!"
     },
     {
-      "id": "7",
+      "id": "2",
       "checked": true,
       "firstName": "Userdsadas",
       "lastName": "Naallatan",
@@ -61,7 +25,7 @@
       "password": "pass123!"
     },
     {
-      "id": "8",
+      "id": "3",
       "checked": false,
       "firstName": "Userew",
       "lastName": "Naallatan",
@@ -73,7 +37,7 @@
       "password": "pass123!"
     },
     {
-      "id": "9",
+      "id": "4",
       "checked": true,
       "firstName": "User123",
       "lastName": "Naallatan",
@@ -85,7 +49,7 @@
       "password": "pass123!"
     },
     {
-      "id": "10",
+      "id": "5",
       "checked": false,
       "firstName": "User10",
       "lastName": "Naallatan",
@@ -95,42 +59,6 @@
       "email": "user@gmail.com",
       "contactNumber": "09876543210",
       "password": "pass123!"
-    },
-    {
-      "id": "11",
-      "checked": true,
-      "firstName": "User43211",
-      "lastName": "Naallatan",
-      "birthdate": "05052023",
-      "gender": "Male",
-      "address": "Barra, Opol",
-      "email": "user@gmail.com",
-      "contactNumber": "09876543210",
-      "password": "pass123!"
-    },
-    {
-      "id": "12",
-      "checked": false,
-      "firstName": "User12343213",
-      "lastName": "Naallatan3",
-      "birthdate": "05052023d",
-      "gender": "Male4",
-      "address": "Barra, Opol, Misamis Oriental4",
-      "email": "user12345@gmail.com",
-      "contactNumber": "09876543210d",
-      "password": "pass123!1"
-    },
-    {
-      "id": "121",
-      "checked": true,
-      "firstName": "Dakog Koh",
-      "lastName": "Og Bilat",
-      "birthdate": "05251986",
-      "gender": "Female",
-      "address": "Lumbia. CDO",
-      "email": "lady@gmail.com",
-      "contactNumber": "09876543210",
-      "password": "lady123!"
     }
   ]
 }
